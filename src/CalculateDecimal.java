@@ -1,16 +1,16 @@
-public class CalculateDecimal extends GetString{
+public class CalculateDecimal extends GetString {
     public String SwitchDay() {
-        switch (day){
+        switch (day) {
             case ("1A"):
                 day = "26";
                 break;
             case ("1B"):
                 day = "27";
                 break;
-            case  ("1C"):
+            case ("1C"):
                 day = "28";
                 break;
-            case  ("1D"):
+            case ("1D"):
                 day = "29";
                 break;
             case ("1E"):
@@ -24,7 +24,7 @@ public class CalculateDecimal extends GetString{
     }
 
 
-//Наверно месяцы будут указаны в строке, начиная с 0. Я не знаю. Врятли , если вся строка идёт через 2 знака, будет просто A=10
+    //Наверно месяцы будут указаны в строке, начиная с 0. Я не знаю. Врятли , если вся строка идёт через 2 знака, будет просто A=10
     public String SwitchMounth() {
         switch (mounth) {
             case ("0A"):
@@ -40,7 +40,7 @@ public class CalculateDecimal extends GetString{
         return mounth;
     }
 
-//блок свичка года, хватит до 2035. Вот это нужно как-то переводить в пересчет, иначе можно рехнуться.
+    //блок свичка года, хватит до 2035. Вот это нужно как-то переводить в пересчет, иначе можно рехнуться.
     public String SwitchYear() {
         switch (year) {
             case ("15"):
