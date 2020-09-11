@@ -22,7 +22,7 @@ public class Main {
                 int mounth = Integer.parseInt(part[3], 16);                         // мес
                 int day = Integer.parseInt(part[4], 16);                           // день
 
-                System.out.println("\t===================================\n\tФН годен до: (дд/мм/гг) \n\t\t\t" + day + " : " + mounth + " : " + "20" + year);
+                System.out.println("\t===================================\n\tФН годен до: (дд/мм/гг) \n\t\t\t" + day + " : " + mounth + " : " + "20" + year + "\n");
             }
         }
     }
