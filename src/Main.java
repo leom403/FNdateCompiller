@@ -4,14 +4,14 @@
 потом все эти числа складываются между собой ( 1 + 32 + 2304 )
  */
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-
         System.out.println("Введите данные из строки ответ через пробел ( )");
         GetString String = new GetString();
         String answer = String.answer;
         GetFRAnswer FRAnswer = new GetFRAnswer();
-        FRAnswer.readFRanswer();
         CalculateDecimal resultDecimal = new CalculateDecimal();
 
         System.out.println("\tВы ввели: " + answer);                                                              //для визуальной проверки ввода
